@@ -9,6 +9,7 @@ import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
 import ThemeToggle from '../components/ThemeToggle';
 import GalaxyBackground from '../components/GalaxyBackground';
+import LeetCodeDashboard from '../components/LeetCodeDashboard';
 
 const Index = () => {
   const [darkMode, setDarkMode] = useState(true); // Default to dark mode
@@ -37,6 +38,7 @@ const Index = () => {
         <Hero darkMode={darkMode} />
         <About darkMode={darkMode} />
         <Experience darkMode={darkMode} />
+        <LeetCodeDashboard darkMode={darkMode} />
         <Projects darkMode={darkMode} />
         <Skills darkMode={darkMode} />
         <Certifications darkMode={darkMode} />
